@@ -1,0 +1,14 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "hands on react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Madhusudhan Boddu",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
