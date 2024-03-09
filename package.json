@@ -2,13 +2,24 @@
   "name": "react",
   "version": "1.0.0",
   "description": "hands on react",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madhusudhan1060/react-practice"
   },
   "author": "Madhusudhan Boddu",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
